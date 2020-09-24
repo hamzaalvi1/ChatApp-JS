@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('../fonts/Raleway-MediumItalic.ttf');
+  }
+
+
+.brand-logo{
+    font-family: 'Acme', sans-serif;
+    text-shadow: 1px 1px 1px grey;
+
+}
+.nav-wrapper li a{
+    font-family: 'Acme', sans-serif;
+
+    /* font-family: "Raleway-Medium"; */
+    font-size: 19px;
+    letter-spacing: 0.1em;
+    text-shadow: 1px 1px 1px grey;
+}
+body{
+    background-color: whitesmoke;
+}
