@@ -2,6 +2,14 @@
     font-family: 'Raleway-Medium';
     src: url('../fonts/Raleway-MediumItalic.ttf');
   }
+  @font-face {
+    font-family: 'Raleway-BoldItalic';
+    src: url('../fonts/Raleway-BoldItalic.ttf');
+  }
+  @font-face {
+    font-family: 'Carter-One';
+    src: url('../fonts/CarterOne-Regular.ttf');
+  }
 
 
 .brand-logo{
@@ -18,5 +26,37 @@
     text-shadow: 1px 1px 1px grey;
 }
 body{
-    background-color: whitesmoke;
+    background-color: grey;
+}
+.card-panel h3{
+    font-family: 'Acme';
+    color: #1e88e5;
+    text-shadow: 1px 2px 1px grey;
+     margin-top: -12px;
+    border-radius:  4px;
+    height: 40px;
+    
+}
+.input-field input[type=email]:focus + label {
+    color: #1976d2 !important;
+  }
+  .input-field .prefix.active {
+    color: #1976d2;
+  }
+  .input-field input[type=email]:focus {
+    border-bottom: 1px solid #1976d2 !important;
+  }
+  .input-field input[type=password]:focus + label {
+    color: #1976d2 !important;
+  }
+  .input-field input[type=password]:focus {
+    border-bottom: 1px solid #1976d2 !important;
+  }
+  #login-form button{
+      width: 100%
+  }
+.card-panel{
+    border-radius: 12px;
+    margin-top: 08em;
+   
 }
