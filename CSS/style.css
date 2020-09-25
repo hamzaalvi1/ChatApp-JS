@@ -26,7 +26,9 @@
     text-shadow: 1px 1px 1px grey;
 }
 body{
-    background-color: grey;
+    background-image:url("../Assets/Chat-Background.jpg");
+    background-size: cover;
+    background-position: center center
 }
 .card-panel h3{
     font-family: 'Acme';
