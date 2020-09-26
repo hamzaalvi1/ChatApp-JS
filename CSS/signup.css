@@ -38,6 +38,8 @@ body{
     border-radius:  4px;
     height: 40px;
     
+}.input-field input[type=text]:focus + label {
+  color: #512da8 !important;
 }
 .input-field input[type=email]:focus + label {
     color: #512da8 !important;
@@ -52,6 +54,9 @@ body{
     color: #512da8 !important;
   }
   .input-field input[type=password]:focus {
+    border-bottom: 1px solid #512da8 !important;
+  }
+  .input-field input[type=text]:focus {
     border-bottom: 1px solid #512da8 !important;
   }
   #login-form button{
