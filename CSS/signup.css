@@ -59,12 +59,11 @@ body{
   .input-field input[type=text]:focus {
     border-bottom: 1px solid #512da8 !important;
   }
-  #login-form button{
+  #signUp-form button{
       width: 100%
   }
 .card-panel{
     border-radius: 12px;
-    margin-top: 08em;
-    background-color: #eceff1
+    margin-top: 06em;
    
 }
